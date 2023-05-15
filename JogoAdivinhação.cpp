@@ -2,22 +2,22 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
-//
+//Abrindo a classe do jogo
 class JogoAdivinhacao{
-    //
+    //definindo alguns valores privados
     private:
     int numeroSecreto;
     int tentativas;
-    //
+    //definindo os valores publicos
     public:
     JogoAdivinhacao(){
-        //
+        //função para randomizar um numero utilizando uma biblioteca externa
         srand(time(0));
         numeroSecreto = rand() % 100 + 1;
         tentativas = 0;
     }
     
-    //
+    //abrindo uma função void(que não retorna um valor)
     void jogar(){
         //
         int palpite;
@@ -40,6 +40,7 @@ class JogoAdivinhacao{
 
 
 int main() {
+    //definindo um novo objeto da minha classe criada acima e chmando suas funções
     JogoAdivinhacao jogo;
     jogo.jogar();
     
