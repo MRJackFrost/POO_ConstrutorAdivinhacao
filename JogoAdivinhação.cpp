@@ -46,3 +46,6 @@ int main() {
     
     return 0;
 }
+/*Uma possibilidade de utilizar o contrutor é como os jogos gacha(genshin e jogos de celulares)
+onde muitos itens que os jogadores recebem são por capsulas aleatórias onde existe uma porcentagem
+para ganhar itens normais, raros e epicos */
